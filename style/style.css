@@ -56,10 +56,6 @@ h2, p {
     width: 100%;
 }
 
-.header-wrapper {
-    margin-left: 3rem;
-}
-
 .nl-logo {
     width: 30%;
 }
@@ -78,11 +74,8 @@ h2, p {
 
 /* Side Bar */
 
-.side-bar {
-    padding: 1rem;
-}
-
 .nav-list {
+    margin-left: -2rem;
     padding-right: 1rem;
     font-size: 2rem;
     border-right: #fffa00 4px solid;
