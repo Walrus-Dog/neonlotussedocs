@@ -42,6 +42,9 @@ a {
 h1 {
     color: var(--light-text);
     font-family: 'Righteous', cursive;
+    margin-bottom: 30px;
+    padding-bottom: 1rem;
+    border-bottom: 4px solid var(--highlight);
 }
 
 h2, p {
@@ -52,8 +55,13 @@ h2, p {
 /* Header */
 
 .header {
-    padding: 2rem;
+    border-bottom: var(--light-text) solid 4px;
     width: 100%;
+}
+
+.header-wrapper {
+    padding-left: 2rem;
+    padding-top: 1rem;
 }
 
 .nl-logo {
@@ -61,7 +69,7 @@ h2, p {
 }
 
 .nl-logo:hover {
-    transform: scale(110%);
+    filter: grayscale(100%) invert(100%);
 }
 
 .logo-link {
@@ -69,15 +77,21 @@ h2, p {
 }
 
 .header-h1 {
-    padding-top: 45px;
+    font-size: calc((3 - 1) * 1.2vw + 1rem);
+    padding-top: 40px;
+    border: none;
+}
+
+.header-h1:hover {
+    color: #72a0c1;
 }
 
 /* Side Bar */
 
 .nav-list {
-    margin-left: -2rem;
+    margin-top: 2rem;
     padding-right: 1rem;
-    font-size: 2rem;
+    font-size: calc((1.7 - 1) * 1.2vw + 1rem);
     border-right: #fffa00 4px solid;
 }
 
@@ -90,14 +104,14 @@ h2, p {
 }
 
 /* Content */
-.main {
+/* .main {
     padding: 1rem;
     margin: 1rem;
-}
+} */
 
-.home-header {
-    border-bottom: var(--highlight) solid 4px;
-    padding-bottom: 1rem;
+.content {
+    padding: 1rem;
+    margin-top: 2rem;
 }
 
 /* Footer */
@@ -114,10 +128,30 @@ h2, p {
 
 .footer-header, .footer-text {
     color: var(--dark-text);
+    border: none;
+}
+
+.footer-header:hover {
+    color: #72a0c1;
 }
 
 .footer-img {
+    border: #242424 solid 4px;
     justify-content: end;
+    margin-top: 30px;
     margin-left: 10rem;
     width: 5.5rem;
+}
+
+.footer-img:hover {
+    filter: grayscale(100%) invert(100%);
+    border: #e2e2e2 4px solid;
+}
+
+.walrus a {
+    color: #ff7500;
+}
+
+.walrus a:hover {
+    color: #72a0c1;
 }
