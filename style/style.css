@@ -155,3 +155,13 @@ h2, p {
 .walrus a:hover {
     color: #72a0c1;
 }
+
+/* Per page indicator */
+
+.home-light, .aes-light, .audio-light, .chars-light, .game-light, .locals-light, .script-light, .scripting-light, .music-light, .sfx-light {
+    color: var(--highlight);
+}
+
+.home-light:hover, .aes-light:hover, .audio-light:hover, .chars-light:hover, .game-light:hover, .locals-light:hover, .script-light:hover, .scripting-light:hover, .music-light:hover, .sfx-light:hover {
+    color: #72a0c1
+}
