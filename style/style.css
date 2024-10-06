@@ -103,11 +103,16 @@ h2, p {
     color: var(--highlight);
 }
 
+.mall-fix, .hotel-fix, .labs-fix {
+    margin-right: 50px;
+}
+
 /* Content */
-/* .main {
-    padding: 1rem;
-    margin: 1rem;
-} */
+
+.main {
+    min-height: 55vh;
+    margin-bottom: 2rem;
+}
 
 .content {
     padding: 1rem;
@@ -120,9 +125,7 @@ h2, p {
     background-color: var(--light-text);
     border-top: var(--darker-bg) solid 4px;
     padding: 2rem;
-    position: fixed;
-    left: 0;
-    bottom: 0;
+    margin-top: auto;
     width: 100%;
 }
 
@@ -158,10 +161,10 @@ h2, p {
 
 /* Per page indicator */
 
-.home-light, .aes-light, .audio-light, .chars-light, .game-light, .locals-light, .script-light, .scripting-light, .music-light, .sfx-light {
+.home-light, .aes-light, .audio-light, .world-light, .game-light, .locals-light, .script-light, .scripting-light, .music-light, .sfx-light {
     color: var(--highlight);
 }
 
-.home-light:hover, .aes-light:hover, .audio-light:hover, .chars-light:hover, .game-light:hover, .locals-light:hover, .script-light:hover, .scripting-light:hover, .music-light:hover, .sfx-light:hover {
+.home-light:hover, .aes-light:hover, .audio-light:hover, .world-light:hover, .game-light:hover, .locals-light:hover, .script-light:hover, .scripting-light:hover, .music-light:hover, .sfx-light:hover {
     color: #72a0c1
 }
