@@ -47,9 +47,15 @@ h1 {
     border-bottom: 4px solid var(--highlight);
 }
 
-h2, p {
+h2, h3, p {
     color: var(--light-text);
     font-family: 'IBM Plex Mono', monospace;
+}
+
+h3 {
+    border-bottom: 2px solid var(--highlight);
+    font-weight: 600;
+    padding-bottom: 4px;
 }
 
 /* Header */
@@ -111,12 +117,18 @@ h2, p {
 
 .main {
     min-height: 55vh;
+    width: 90%;
     margin-bottom: 2rem;
 }
 
 .content {
     padding: 1rem;
     margin-top: 2rem;
+}
+
+/* Characters */
+.nono-img {
+    width: 20%;
 }
 
 /* Footer */
@@ -161,10 +173,10 @@ h2, p {
 
 /* Per page indicator */
 
-.home-light, .aes-light, .audio-light, .world-light, .game-light, .locals-light, .script-light, .scripting-light, .music-light, .sfx-light {
+.home-light, .aes-light, .audio-light, .world-light, .game-light, .locals-light, .script-light, .scripting-light, .music-light, .sfx-light, .chars-light, .nono-light, .rose-light, .gatto-light, .kero-light, .angles-light, .shop-light, .krusov-light, .fuchs-light, .suit-light, .crow-light, .critter-light, .start-light, .apart-light, .street-light, .station-light, .mall-light, .hotel-light, .labs-light, .void-light, .end-light, .lore-light, .hist-light {
     color: var(--highlight);
 }
 
-.home-light:hover, .aes-light:hover, .audio-light:hover, .world-light:hover, .game-light:hover, .locals-light:hover, .script-light:hover, .scripting-light:hover, .music-light:hover, .sfx-light:hover {
+.home-light:hover, .aes-light:hover, .audio-light:hover, .world-light:hover, .game-light:hover, .locals-light:hover, .script-light:hover, .scripting-light:hover, .music-light:hover, .sfx-light:hover, .chars-light:hover, .nono-light:hover, .rose-light:hover, .gatto-light:hover, .kero-light:hover, .angles-light:hover, .shop-light:hover, .krusov-light:hover, .fuchs-light:hover, .suit-light:hover, .crow-light:hover, .critter-light:hover, .start-light:hover, .apart-light:hover, .street-light:hover, .station-light:hover, .mall-light:hover, .hotel-light:hover, .labs-light:hover, .void-light:hover, .end-light:hover, .lore-light:hover, .hist-light:hover {
     color: #72a0c1
 }
