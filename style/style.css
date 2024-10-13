@@ -131,6 +131,10 @@ h3 {
     width: 20%;
 }
 
+.crow-img {
+    width: 20%;
+}
+
 /* Footer */
 .footer {
     color: var(--dark-text);
